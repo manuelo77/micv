@@ -1,0 +1,28 @@
+body{
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight:700;
+ }
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+ 
+img{
+    display:block;
+    margin:auto;
+}
+h1{
+    color: silver;
+    background-color:#04AA6D;
+    text-align: center;
+    border: 1px dottd #000;
+}
+
+#producto{
+    font-weight:bold;
+   
+}
+
+.blue{
+    background-color:blue !important;
+    text-style:italic;
+}
