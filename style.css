@@ -12,10 +12,33 @@ img{
 }
 h1{
     color: silver;
-    background-color:#04AA6D;
     text-align: center;
     border: 1px dottd #000;
 }
+p{
+    font-weight:500;
+}
+
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.width20{
+    width:20%;
+}
+.width30{
+    width:30%;
+}
+.width50{
+    width:50%;
+}
+.widht70{
+    widht:70%;
+}
+
+.circular--portrait { position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } .circular--portrait img { width: 100%; height: auto; }
 
 #producto{
     font-weight:bold;
@@ -26,3 +49,48 @@ h1{
     background-color:blue !important;
     text-style:italic;
 }
+
+.fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+  .proyectos{
+    float:left;
+    width:25%;
+  }
+  .proyectos p{
+    text-align:center;
+  }
+  .proyectos h1{
+    font-size: 20px;
+  }
